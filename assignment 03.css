@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left bottom,#72A0C9,#16be16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    color: #FFFAF0;
+    font-family:Raleway ;
+    
+}
+.inner{
+    height: 500px;
+    width: 500px;
+    border:2px solid #FFFAF0;
+    background-color:#FFFAF0;
+}
+h2{
+    font-family: Raleway;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+input{
+    margin-left: 60px;
+    background-color: #E5E4E2;
+}
+.text{
+    margin-left: 60px;
+    font-family:Raleway ;
+    font-weight: 600;
+    font-size: 10px;
+
+}
+#Yourself{
+    margin-left: 60px;
+    background-color: #E5E4E2;
+    padding-left: 10px;
+}
+#text{
+    
+    font-family:Raleway ;
+    font-size: 10px;
+    font-weight: 600; 
+}
+
+button{
+    background-image: linear-gradient(to left bottom,#00FF00 ,#72A0C1);
+    height: 40px;
+    width: 90px;
+    color: white;
+    border: 2px solid white;
+    margin-left: 200px;
+    
+}
+input{
+    height: 40px ;
+    border: 0px;
+  text-align:start;
+  padding-left: 10px;
+}
+#your{
+    height: 40px ;
+    width: 390px;
+    border: 0px;
+  text-align:start;
+  padding-left: 10px;
+}
+label{
+    margin-left: 60px;
+    font-family:Raleway ;
+    font-weight: 600;
+    font-size: 10px;
+}
+#e{
+    margin-left: 140px;
+}
+#n{
+    width: 150px;
+}
